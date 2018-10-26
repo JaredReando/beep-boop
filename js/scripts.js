@@ -40,8 +40,13 @@ var beepBoop = function(input) {
     if (incrementArray[i] % 3 === 0 && incrementArray[i] !== 0) {
       beepBoopArray.push(" " + "I'm sorry, Dave. I'm afraid I can't do that.");
       // converts array element to string, then back to array as separate elements, then checks for "1" value
+    } else if (incrementArray[i].toString().split("").includes("1")) {
+      beepBoopArray.push(" " + "Boop!");
+      // converts array element to string, then back to array as separate elements, then checks for "2" value
+    } else if (incrementArray[i].toString().split("").includes("0")) {
+      beepBoopArray.push(" " + "Beep!");
     } else {
-      beepBoopArray.push(incrementArray[i]);
+      beepBoopArray.push(" " + incrementArray[i])
     }
   }
 
