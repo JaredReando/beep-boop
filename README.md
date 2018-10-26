@@ -1,12 +1,12 @@
-# Friday Project 10-26-18
+# Beep Boop
 
-#### _Survey web site to select an Epicodus track._
+#### _Number replacing web application._
 
 #### By _**Jared Reando**_
 
 ## Description
 
-_description. View a hosted version of this project [here](https://jaredreando.github.io/fridaaaaaaaa/)_
+_A web application that takes a number from a user and returns a range of number from 0 to the user inputted number. View a hosted version of this project [here](https://jaredreando.github.io/beep-boop/)_
 
 ### Specs
 | Spec | Input | Output |
@@ -26,7 +26,12 @@ _description. View a hosted version of this project [here](https://jaredreando.g
 
 _Questions or feedback: jaredreando@gmail.com_
 
-## Technologies and Objectives
+## Technologies
+
+- JavaScript
+- jQuery
+
+## Objectives
 
 - [x] Code is clean, well-refactored, and easy-to-read. This includes correct indentation, spacing, and including only necessary comments and debugging tools.
 
