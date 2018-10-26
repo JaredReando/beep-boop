@@ -1,28 +1,6 @@
-// var incrementInput = function (input) {
-//   var incrementArray = [];
-//   for(i=0; i <= input; i++) {
-//     incrementArray.push(i);
-//   }
-//   console.log(incrementArray);
-//   return incrementArray;
-// }
-//
-// var findOne = function (input) {
-//   var functionArray = incrementInput(input);
-//   var indexZero = functionArray.indexOf(0);
-//   var indexOne = functionArray.indexOf(1);
-//   if (input % 3 === 0)
-//   var indexThree = functionArray.indexOf(3);
-//
-//   return "zero @: " + indexZero + "<br>one @: " + indexOne + "<br>three @: " + indexThree;
-//
-//   return functionArray;
-//
-// }
-
-
-
+// BUSINESS LOGIC:
 var beepBoop = function(input) {
+  // Returns message if user input not a number:
   if(isNaN(input)) {
     return "Sorry! That's not a number I can Boop.";
   }
@@ -33,8 +11,8 @@ var beepBoop = function(input) {
     incrementArray.push(i);
   }
 
+// Performs check of all integers in 0 - input# array. Replaces integers with beep-boop response based on chosen rules:
   var beepBoopArray = [];
-
   for (var i = 0; i < incrementArray.length; i++) {
     // checks if input number is divisible by 3 and is not '0'
     if (incrementArray[i] % 3 === 0 && incrementArray[i] !== 0) {
@@ -54,23 +32,22 @@ var beepBoop = function(input) {
 
 };
 
-
-
-
-
-
-// client-side code:
+// CLIENT LOGIC:
 $(document).ready(function(){
+
   $("#boopResult").hide();
+
   $("#boopForm").submit(function(event){
     event.preventDefault();
+    // Resets "hide" of results if user re-submits another input. This is so the slide animation occurs for each re-submission
     $("#boopResult").hide();
-    $("#boopResult").slideDown();
+
     var userInput = $("input#userInput").val();
     var userOutput = beepBoop(userInput);
 
     $("#boopOutput").text(userOutput);
 
+    $("#boopResult").slideDown();
 
   });
 });
