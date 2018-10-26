@@ -6,7 +6,7 @@
 
 ## Description
 
-_A web application that takes a number from a user and returns a range of number from 0 to the user inputted number with the following exceptions:_
+_A web application that takes a number from a user and returns an integer list from 0 to the user inputted number with the following exceptions:_
 
 - Numbers that contain a 0 are replaced (all digits) with "Beep!"
 - Numbers that contain a 1 are replaced (all digits) with "Boop!"
@@ -15,7 +15,7 @@ _A web application that takes a number from a user and returns a range of number
  _View a hosted version of this project [here](https://jaredreando.github.io/beep-boop/)_
 
 ### Specs
-| Spec | Input | Output |
+| Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **If a number containing a 0 is entered, all digits are replaced with "Beep!"** | Example input: "0" | Example output: "Beep!"|
 | **If a number containing a 1 is entered, all digits are replaced with "Boop!"** | Example input: "1" | Example output: "Beep!", "Boop!"|
@@ -54,21 +54,24 @@ _Questions or feedback: jaredreando@gmail.com_
     * Description
     * Copyright and license information
 
-- [x] Site uses branching to return the result.
+- [X] JavaScript business logic and user interface logic are separate.
 
-- [x] jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.)
+- [X] Variable names are descriptive and use lower camel case (e.g. myVariableExample).
 
-- [x] Form gathers input from the user.
+- [X] Code is clean, well-refactored, and easy-to-read. This includes correct indentation, spacing, and including only necessary comments and debugging tools.
 
-- [x] Variable names are descriptive of what they represent.
+- [X] All previous objectives have been met.
 
-- [x] Web page is styled using Bootstrap and custom CSS.
+- [X] Logic is broken down into "plain English" specs, listed in README.
 
-- [x] The project is in a presentable, portfolio-quality state.
+- [X] Project is in a presentable, portfolio-quality state.
 
-- [x] Required functionality is in place by the Friday deadline.
+- [X] Required functionality is in place by Friday deadline.
 
-- [x] Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology.
+- [X] Project demonstrates understanding of this week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology.
+
+- [X] Application implements a loop and works as expected.
+
 
 ### License
 
