@@ -10,17 +10,22 @@
 </head>
 <body>
   <div class="container">
-    <h1>Beep Boop!</h1>
-    <form id="boopForm" >
+    <div class="well semi-opaque">
+
+    <h1 id="main-heading" class="semi-opaque">Beep Boop!</h1>
+    <div class="well semi-opaque">
+
+    <form id="boopForm" class="bigger-text" >
       <label for="">Enter a number: </label>
       <input id="userInput"type="text" >
       <button type="submit" name="button" class="btn btn-success">ENTER</button>
     </form>
-    <br>
-    <br>
-    <br>
-    <div id="boopResult">
-      <p> Beep-boooooop! Here is your new series: <span id="boopOutput"></span></p>
-    </div>
+  </div>
+  <div class="well" id="boopResult">
+    <h3 class="bigger-text"> Beep-boooooop! Check out <em>this</em> razzle-dazzle:</h3>
+    <p><span id="boopOutput"></span></p>
+  </div>
+</div>
+
   </body>
 </html>

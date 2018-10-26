@@ -61,9 +61,11 @@ var beepBoop = function(input) {
 
 // client-side code:
 $(document).ready(function(){
+  $("#boopResult").hide();
   $("#boopForm").submit(function(event){
     event.preventDefault();
-
+    $("#boopResult").hide();
+    $("#boopResult").slideDown();
     var userInput = $("input#userInput").val();
     var userOutput = beepBoop(userInput);
 
