@@ -23,6 +23,10 @@
 
 
 var beepBoop = function(input) {
+  if(isNaN(input)) {
+    return "Sorry! That's not a number I can Boop.";
+  }
+
 // Takes user input number and creates an array with all integers between '0' and input#:
   var incrementArray = [];
   for (var i = 0; i <= input; i++) {
