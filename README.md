@@ -18,7 +18,7 @@ _A web application that takes a number from a user and returns a range of number
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **If a number containing a 0 is entered, all digits are replaced with "Beep!"** | Example input: "0" | Example Output: "Beep!"|
-| **If a number containing a 1 is entered, all digits are replaced with "Beep!** | Example input: "1" | Example Outpu: "Boop!"|
+| **If a number containing a 1 is entered, all digits are replaced with "Boop!** | Example input: "1" | Example Output: "Boop!"|
 | **If a number divisible by 3 is entered, all digits are replaced with "I'm sorry, Dave. I'm afraid I can't do that.** | User input: "3" | Output: "I'm sorry, Dave. I'm afraid I can't do that."|
 | **If a number higher than 0 is entered, all numbers in the range from 0 to the inputted number are returned.** | User input: "5" | Output: "Beep!", "Boop!", 2, "I'm Sorry...", 4, 5|
 | **If a number contains 0, 1, and 3, the highest order rule is applied to all returned numbers.** | User input: "108" | Output: "..., I'm sorry, Dave. I'm afraid I can't do that."|
